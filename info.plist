@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>contactEmailRot13</key>
-	<string>zngg@gvqovgf.pbz</string>
+	<string>gurvevk@tznvy.pbz</string>
 	<key>contactName</key>
-	<string>Matt Neuburg</string>
+	<string>theirix</string>
 	<key>description</key>
-	<string>Editor for AsciiDoc files (http://asciidoc.org). Rendering will vary according to need and installation and is left mostly up to the user.</string>
+	<string>Editor for AsciiDoc files (http://asciidoc.org). Rendering will vary according to need and installation and is left mostly up to the user.
+Original version by Matt Neuburg &lt;matt@tidbits.com&gt;
+Updated by theirix &lt;theirix@gmail.com&gt;</string>
 	<key>name</key>
 	<string>AsciiDoc</string>
 	<key>uuid</key>
