@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/bash
+
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+. "$TM_SUPPORT_PATH/lib/webpreview.sh"
+#html_header "AsciiDoc Preview" "${TM_FILENAME:-}"
+
+if [[ -f "$TM_FILEPATH" ]]; then
+  echo "&lt;base href='file://${TM_FILEPATH// /%20}'&gt;"
+fi
+
+${TM_ASCIIDOC:-asciidoctor} - -o -
+html_footer</string>
+	<key>input</key>
+	<string>document</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>keyEquivalent</key>
+	<string>^~@p</string>
+	<key>name</key>
+	<string>Preview</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>html</string>
+	<key>outputLocation</key>
+	<string>newWindow</string>
+	<key>scope</key>
+	<string>text.asciidoc</string>
+	<key>uuid</key>
+	<string>011F29E7-45A2-4D8C-A402-24678851479C</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

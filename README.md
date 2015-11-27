@@ -68,3 +68,5 @@ I wrote this bundle because I wanted a working AsciiDoc bundle in order to conti
 Nonetheless, there may be areas in which I have fallen short just because I'm not conscious of them. For example, I have probably not done a sufficiently complete list of includes for my sidebar block, because I stopped after I had included everything I actually use in sidebars. If you have suggestions, feel free to let me know. If you are the kind of person who can grapple with the nitty-gritty of TextMate grammars, feel free to fork and/or to submit a pull request.
 
 Matt Neuburg, <http://www.apeth.net/matt/default.html>
+
+Updated preview commands by theirix <theirix@gmail.com>

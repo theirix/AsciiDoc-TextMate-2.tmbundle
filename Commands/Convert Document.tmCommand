@@ -30,7 +30,7 @@ puts "Document converted to: &lt;a href='#{URI.escape(fdest)}'&gt;#{fdest}&lt;/a
 	<key>keyEquivalent</key>
 	<string>^H</string>
 	<key>name</key>
-	<string>Preview Document</string>
+	<string>Convert Document</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
